@@ -13,11 +13,11 @@ const AddEntry = (props) => {
     async function handleSubmit(event){
         event.preventDefault();
         let addNew = {
-            Name: name,
-            Artist: artist,
-            Album: album,
-            Genre: genre,
-            Release_Date: release_date
+            name: name,
+            artist: artist,
+            album: album,
+            genre: genre,
+            release_date: release_date
         }
         props.addNew(addNew)
     await axios.post("http://127.0.0.1:8000/api/music_library/")       
