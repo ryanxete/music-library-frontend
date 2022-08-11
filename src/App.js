@@ -11,7 +11,7 @@ function App() {
 const [library, setLibrary] = useState([{"artist": "Just Emma","name": "Passengers","album": "Scars In The Sky","genre": "House","release_date": "2016-03-09"
 }])
 
-function AddNew (entry) {
+function addNew (entry) {
   let tempEntry = [entry, ...library]
   setLibrary(tempEntry)
 }
@@ -30,7 +30,7 @@ const fetchSongs = async () => {
   return (
     <div >
       <Navbar />
-      <AddEntry addNew={AddNew} parentEntries={library}/>
+      <AddEntry addNew={addNew} />
       <SearchBar />
       <button onClick={fetchSongs} className='all_button'>All Songs</button>
       <MusicTable parentEntries={library}/>
