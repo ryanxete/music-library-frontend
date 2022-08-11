@@ -20,7 +20,7 @@ const AddEntry = (props) => {
             release_date: release_date
         }
         props.addNew(addNew)
-    await axios.post("http://127.0.0.1:8000/api/music_library/")       
+    await axios.post("http://127.0.0.1:8000/api/music_library/", addNew)       
 };
 
     return ( 

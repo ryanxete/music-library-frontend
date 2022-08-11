@@ -9,8 +9,7 @@ const MusicTable = (props) => {
     // const [song, setSong] = useState()
 
     const delete_song = async () => {
-        let respose = await axios.delete("http://127.0.0.1:8000/api/music_library/")
-        respose.delete()
+        await axios.delete("http://127.0.0.1:8000/api/music_library/")
     }
 
     return ( 
