@@ -5,13 +5,14 @@ import MusicTable from './Components/MusicTable/MusicTable';
 
 function App() {
 
-const [library, setLibrary] = useState([])
+const [library, setLibrary] = useState([{"artist": "Just Emma","name": "Passengers","album": "Scars In The Sky","genre": "House","release_date": "2016-03-09"
+}])
 
   return (
     <div >
       <Navbar />
       <SearchBar />
-      <MusicTable />
+      <MusicTable parentEntries={library}/>
     </div>
   );
 }

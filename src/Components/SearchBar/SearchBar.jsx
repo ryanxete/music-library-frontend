@@ -1,8 +1,11 @@
-
+import React, { useState } from 'react';
 
 const SearchBar = (props) => {
     return ( 
-        <div></div>
+        <div>
+            <input type="text" />
+            <button>search</button>
+        </div>
      );
 }
  
