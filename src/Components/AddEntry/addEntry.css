@@ -1,0 +1,41 @@
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.entry-box {
+    display: block;
+    text-align: center;
+}
+
+.form-grid{
+    background-color: white;
+    margin-top: 2em;
+    box-shadow: 0 0 10px #000000;
+    border-radius: 15px;
+    width: 552px;
+}
+
+.button {
+    width: 94%;
+    height: 28px;
+    text-align: center;
+    margin: 16px;
+    margin-top: 14px;
+    margin-left: 20px;
+    display: flexbox;
+    background-color: rgb(184, 196, 192)
+}
+
+.entry-box h5 {
+    font-size: 14px;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-bottom: 8px
+} 
+
+input {
+    margin-left: 20px;
+}

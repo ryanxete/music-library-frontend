@@ -1,0 +1,27 @@
+.posting {
+    background-color: white;
+    margin-top: 2em;
+    box-shadow: 0 0 10px #000000;
+    border-radius: 15px;
+    width: 552px;
+    height: max-content;
+    padding: 6px;
+    margin: auto;
+    margin-top: 18px
+}
+
+.entered {
+    border-bottom: ridge;
+    padding: 8px;
+    padding-left: 38px;
+}
+
+.artist {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 523;
+}

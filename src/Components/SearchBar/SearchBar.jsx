@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import './SearchBar.css'
 
 const SearchBar = (props) => {
     return ( 
-        <div>
+        <div className='searchbar'>
             <input type="text" />
             <button>search</button>
         </div>

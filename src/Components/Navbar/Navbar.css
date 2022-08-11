@@ -1,0 +1,19 @@
+.navbar-brand {
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+nav.navbar {
+    height: 40px;
+}
+
+.text-muted {
+    color: darkcyan;
+    padding-left: 7px;
+    padding-top: 4px;
+}
+
+.navbar {
+    border-bottom: 2px solid darkgrey;
+}

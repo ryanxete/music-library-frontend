@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
+import './Navbar.css'
 
 const Navbar = (props) => {
     return (
-        <div className="navbar">
-            <h2 className="title">music is the shit</h2>
-        </div>
+        <nav class="navbar">
+            <h2 class="navbar-brand">Music <small className='text-muted'>Is The Shit</small></h2>
+        </nav>
       );
 }
  
